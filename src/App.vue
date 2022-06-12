@@ -1,9 +1,10 @@
 <script setup lang="ts">
-import Count from './components/Count.vue'
+// import Count from './components/Count.vue'
+import Cart from './components/Cart/index.vue'
 
 </script>
 
 <template>
-  <h1>Hi vite vue3</h1>
-  <Count />
+  <!-- <Count /> -->
+  <Cart />
 </template>

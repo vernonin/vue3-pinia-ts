@@ -1,8 +1,9 @@
 <script setup lang="ts">
 import { storeToRefs } from 'pinia'
-import { useMainStore } from '../store'
+import useStore from '../store'
 
-const mainStore = useMainStore()
+const { mainStore } = useStore()
+
 
 /**
 * 解构store中的数据：
