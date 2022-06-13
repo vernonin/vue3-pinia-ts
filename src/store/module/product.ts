@@ -11,7 +11,7 @@ const useProductsStore = defineStore('products', {
 	getters: {},
 
 	actions: {
-		// 获取所有水平
+		// 获取所有商品
 		async getAllProducts () {
 			const res = await getProducts()
 			this.all = res
