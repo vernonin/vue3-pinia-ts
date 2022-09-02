@@ -12,7 +12,7 @@ const allchecked = ref(false)
 
 // 监听已完成的任务数是否等于总任务数
 watch(doneNumber, (newValue) => {
-	if(newValue === totalNumber.value) {
+	if(newValue === totalNumber.value && newValue !== 0) {
 		allchecked.value = true
 	} else {
 		allchecked.value = false
